@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>#</text></svg>">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div id="app" class="min-h-screen flex items-center justify-center bg-orange-100">
+        <div class="w-72 p-4 rounded-3xl bg-orange-50 shadow-xl">
+            <div class="flex justify-between items-center mb-4">
+                <button id="darkModeToggle" class="text-gray-600">
+                    <i data-lucide="moon"></i>
+                </button>
+                <div id="operation" class="text-2xl font-semibold text-gray-800"></div>
+            </div>
+            <div id="display" class="text-4xl font-bold mb-6 text-right text-gray-900">0</div>
+            <div class="grid grid-cols-4 gap-3">
+                <!-- Buttons will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
