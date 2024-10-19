@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumya Harsh Surin - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="min-h-screen bg-light text-dark">
+        <!-- Header Section -->
+        <header class="bg-primary text-white py-6 px-4 sticky top-0 z-10">
+            <div class="container mx-auto flex justify-between items-center">
+                <h1 class="text-2xl font-bold">Soumya Harsh Surin</h1>
+                <p class="text-accent">Junior Software Developer</p>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section class="container mx-auto py-12 px-4">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="w-64 h-64 rounded-full border-4 border-primary overflow-hidden">
+                    <svg class="w-full h-full text-gray-300" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold mb-4 text-primary">About Me</h2>
+                    <p class="text-lg text-dark">
+                        Hi, I'm Soumya Harsh Surin, a passionate beginner software developer. I'm currently pursuing my degree in Computer Science and actively working on personal projects to enhance my skills. I'm eager to learn and contribute to meaningful projects in the tech industry.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="bg-secondary py-12 text-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-6 text-center">Skills</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="card bg-white text-primary"><div class="card-content">HTML</div></div>
+                    <div class="card bg-white text-primary"><div class="card-content">CSS</div></div>
+                    <div class="card bg-white text-primary"><div class="card-content">JavaScript</div></div>
+                    <div class="card bg-white text-primary"><div class="card-content">React</div></div>
+                    <div class="card bg-white text-primary"><div class="card-content">Python</div></div>
+                    <div class="card bg-white text-primary"><div class="card-content">Git</div></div>
+                    <div class="card bg-white text-primary"><div class="card-content">Responsive Design</div></div>
+                    <div class="card bg-white text-primary"><div class="card-content">Problem Solving</div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section class="container mx-auto py-12 px-4">
+            <h2 class="text-3xl font-bold mb-6 text-center text-primary">Certificates</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="card bg-light border border-secondary">
+                    <div class="card-content">
+                        <i data-lucide="award" class="text-accent"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-primary">Web Development Fundamentals</h3>
+                            <p class="text-sm text-secondary">Codecademy</p>
+                            <p class="text-sm text-dark">May 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other certificates -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="bg-primary py-12 text-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-6 text-center">Projects</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="card bg-white text-dark project-card">
+                        <div class="card-content">
+                            <img src="/placeholder.svg?height=200&width=300" alt="Personal Blog" class="w-full h-40 object-cover mb-4 rounded">
+                            <h3 class="text-xl font-bold mb-2 text-primary">Personal Blog</h3>
+                            <p class="text-secondary mb-4">A responsive blog built with HTML, CSS, and JavaScript.</p>
+                            <a href="#" class="btn bg-primary hover:bg-primary-dark text-white">View Project</a>
+                        </div>
+                    </div>
+                    <!-- Repeat for other projects -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section class="container mx-auto py-12 px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6 text-primary">Resume</h2>
+            <a href="/soumya-harsh-surin-resume.pdf" download class="btn bg-accent hover:bg-accent-dark text-white">
+                <i data-lucide="download" class="mr-2"></i> Download Resume
+            </a>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="bg-secondary py-12 text-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-6 text-center">Contact Me</h2>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-8">
+                    <p class="flex items-center">
+                        <i data-lucide="mail" class="mr-2"></i> soumya.surin@example.com
+                    </p>
+                    <p class="flex items-center">
+                        <i data-lucide="phone" class="mr-2"></i> (123) 456-7890
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="https://github.com/soumyasurin" class="text-white hover:text-accent">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/soumyasurin" class="text-white hover:text-accent">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-primary text-white py-6">
+            <div class="container mx-auto px-4 text-center">
+                <p>&copy; 2024 Soumya Harsh Surin. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
